@@ -1,0 +1,10 @@
+grumphp:
+    ascii:
+    fixer: { fix_by_default: true }
+    tasks:
+        composer:
+        composer_normalize:
+        ecs:
+        infection:
+        phpstan:
+        phpunit:

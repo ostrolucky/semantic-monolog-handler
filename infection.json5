@@ -1,0 +1,17 @@
+{
+    "$schema": "vendor/infection/infection/resources/schema.json",
+    "source": {
+        "directories": [
+            "src"
+        ],
+        "excludes": [
+            "/Test\\.php$/"
+        ]
+    },
+    "mutators": {
+        "@default": true,
+        "ArrayItemRemoval": {
+            "ignoreSourceCodeByRegex": [".*__construct.*"]
+        }
+    }
+}

@@ -1,0 +1,8 @@
+/src/SemanticLogHandlerTest.php export-ignore
+/.gitignore export-ignore
+/ecs.php export-ignore
+/grumphp.yaml export-ignore
+/infection.json5 export-ignore
+/phpstan.neon.dist export-ignore
+/phpunit.xml.dist export-ignore
+/.github export-ignore
