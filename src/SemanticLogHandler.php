@@ -20,8 +20,9 @@ class SemanticLogHandler extends FingersCrossedHandler
             'app' => Level::Info,
         ],
         ActivationStrategyInterface $activationStrategy = new ErrorLevelActivationStrategy(Level::Warning),
+        int $bufferSize = 0,
     ) {
-        parent::__construct($innerHandler, $activationStrategy);
+        parent::__construct($innerHandler, $activationStrategy, $bufferSize);
     }
 
     public function handle(LogRecord $record): bool
